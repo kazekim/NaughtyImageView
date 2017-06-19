@@ -104,8 +104,8 @@ open class NaughtyImageView: UIImageView {
         }
         
         #if DEBUG
-            println("\(horizontalImages) \(verticalImages)")
-            println(positionMatrix)
+            print("\(horizontalImages) \(verticalImages)")
+            print(positionMatrix)
         #endif
         
     }
